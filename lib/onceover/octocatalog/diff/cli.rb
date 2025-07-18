@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class Onceover
   class CLI
     class Run
