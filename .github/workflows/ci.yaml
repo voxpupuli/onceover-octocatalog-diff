@@ -34,6 +34,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: rubocop_and_matrix
     strategy:
+      fail-fast: false
       matrix:
         ruby: ${{ fromJSON(needs.rubocop_and_matrix.outputs.ruby) }}
     steps:
