@@ -3,6 +3,7 @@
 source 'https://rubygems.org'
 
 gem 'backticks', github: 'bastelfreak/backticks', branch: 'foo'
+gem 'octocatalog-diff', github: 'bastelfreak/octocatalog-diff', branch: 'openvox'
 
 # Specify your gem's dependencies in onceover-octocatalog-diff.gemspec
 gemspec
