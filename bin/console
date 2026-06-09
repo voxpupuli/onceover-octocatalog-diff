@@ -1,7 +1,8 @@
 #!/usr/bin/env ruby
+# frozen_string_literal: true
 
-require "bundler/setup"
-require "onceover/octocatalog/diff"
+require 'bundler/setup'
+require 'onceover/octocatalog/diff'
 
 # You can add fixtures and/or initialization code here to make experimenting
 # with your gem easier. You can also use a different console, if you like.
@@ -10,5 +11,5 @@ require "onceover/octocatalog/diff"
 # require "pry"
 # Pry.start
 
-require "irb"
+require 'irb'
 IRB.start

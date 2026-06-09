@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require "onceover/octocatalog/diff/version"
 require "onceover/octocatalog/diff/cli"
 
