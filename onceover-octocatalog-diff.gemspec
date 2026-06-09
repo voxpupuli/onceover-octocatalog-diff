@@ -25,6 +25,8 @@ Gem::Specification.new do |spec| # rubocop:disable Gemspec/RequireMFA
   spec.add_development_dependency 'bundler', '~> 2.4'
   spec.add_development_dependency 'rake', '~> 13.3'
 
+  spec.add_runtime_dependency 'table_print', '>= 1.5.7'
+  spec.add_runtime_dependency 'colored2', '~> 3.1'
   spec.add_runtime_dependency 'octocatalog-diff', '~> 2.3'
   spec.add_runtime_dependency 'onceover', '~> 5.0'
 end
